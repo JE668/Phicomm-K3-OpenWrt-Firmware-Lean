@@ -1,44 +1,73 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+# K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
+Phicomm K3 OpenWrt firmware Compile by Github Actions
 
-# Actions-OpenWrt
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+## Instruction | 介绍
 
-A template for building OpenWrt with GitHub Actions
 
-## Usage
+### Source Code | 源码使用
 
-- Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
+- https://github.com/coolsnowwolf/lede
 
-## Tips
+- https://github.com/jerrykuku/luci-theme-argon
 
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+- https://github.com/lwz322/k3screenctrl_build
 
-## Credits
+- https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
 
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-- [ActionsRML/delete-workflow-runs](https://github.com/ActionsRML/delete-workflow-runs)
-- [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
-- [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
+- https://github.com/kiddin9/openwrt-bypass
 
-## License
+- https://github.com/kiddin9/luci-app-dnsfilter
 
-[MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
+- https://github.com/yaof2/luci-app-ikoolproxy
+
+- ······
+
+
+### Including Applictions | 包含插件
+
+- Remove All USB Support(USB interface can charge only)
+
+- IPv6 Full Support
+
+- Phicomm K3's LCD Screen Full Support
+
+- iKoolProxy
+
+- bypass
+
+- dnsfilter
+
+- UnblockNeteaseMusic
+
+- WiFi Schedule
+
+- Zerotier
+
+- UPNP
+
+- KMS Server
+
+- Syncdial
+
+- MWan3
+
+- Network Turbo ACC(base on new Qualcomm Short-FE)
+
+- uhttps
+
+- Filetransfer
+
+- Others
+
+## Thanks | 致谢
+
+- [LEDE](https://github.com/coolsnowwolf)
+- [Lienol](https://github.com/Lienol)
+- [jerrykuku](https://github.com/jerrykuku)
+- [lwz322](https://github.com/lwz322)
+- [kiddin9](https://github.com/kiddin9)
+- [P3TERX](https://github.com/P3TERX)
+- [yangxu52](https://github.com/yangxu52)
+- [yaof2](https://github.com/yaof2)
+- And Every Source Contributor!
