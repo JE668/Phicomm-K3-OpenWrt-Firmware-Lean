@@ -20,6 +20,7 @@
 echo '添加ikoolproxy'
 rm -rf package/luci-app-ikoolproxy
 git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+make && sudo make install
 echo '=========Add ikoolproxy source OK!========='
 
 echo '添加jerrykuku的argon-mod主题'
