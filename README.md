@@ -52,7 +52,7 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 ## Thanks | 致谢
 
-- [LEDE](https://github.com/coolsnowwolf)
+- [Lean](https://github.com/coolsnowwolf)
 - [Lienol](https://github.com/Lienol)
 - [jerrykuku](https://github.com/jerrykuku)
 - [thinktip](https://github.com/thinktip)
