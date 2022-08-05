@@ -18,7 +18,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 echo '添加ikoolproxy'
-rm -rf package/lean/luci-app-ikoolproxy
+rm -rf package/luci-app-ikoolproxy
 git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 echo '=========Add ikoolproxy source OK!========='
 
