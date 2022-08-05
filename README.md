@@ -11,9 +11,13 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/jerrykuku/luci-theme-argon
 
+- https://github.com/thinktip/luci-theme-neobird
+
 - https://github.com/lwz322/k3screenctrl_build
 
 - https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
+
+- https://github.com/kiddin9/openwrt-bypass
 
 - https://github.com/yaof2/luci-app-ikoolproxy
 
@@ -30,19 +34,13 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - iKoolProxy
 
+- bypass
+
 - UnblockNeteaseMusic
-
-- WiFi Schedule
-
-- Zerotier
 
 - UPNP
 
 - KMS Server
-
-- Syncdial
-
-- MWan3
 
 - Network Turbo ACC(base on new Qualcomm Short-FE)
 
@@ -57,6 +55,7 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 - [LEDE](https://github.com/coolsnowwolf)
 - [Lienol](https://github.com/Lienol)
 - [jerrykuku](https://github.com/jerrykuku)
+- [thinktip](https://github.com/thinktip)
 - [lwz322](https://github.com/lwz322)
 - [kiddin9](https://github.com/kiddin9)
 - [P3TERX](https://github.com/P3TERX)
