@@ -17,11 +17,14 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
 
-- https://github.com/kiddin9/openwrt-bypass
-
 - https://github.com/yaof2/luci-app-ikoolproxy
 
 - https://github.com/vernesong/OpenClash
+
+- https://github.com/kiddin9/openwrt-bypass
+
+- https://github.com/kiddin9/luci-app-dnsfilter
+
 
 - ······
 
@@ -36,7 +39,11 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - iKoolProxy
 
+- OpenClash
+
 - bypass
+
+- DNSfilter
 
 - UnblockNeteaseMusic
 
