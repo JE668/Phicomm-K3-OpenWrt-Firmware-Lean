@@ -37,8 +37,8 @@ svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash pac
 echo '=========Add OpenClash source OK!========='
 
 echo '添加ikoolproxy'
-rm -rf package/luci-app-ikoolproxy
-git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+rm -rf package/lean/luci-app-ikoolproxy
+git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
 echo '=========Add ikoolproxy source OK!========='
 
 echo '添加jerrykuku的argon-mod主题'
@@ -48,7 +48,7 @@ echo '=========Add argon-mod OK!========='
 
 echo '添加tinktip的neobird主题'
 rm -rf package/lean/luci-theme-neobird
-git clone https://github.com/thinktip/luci-theme-neobird.git
+git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 echo '=========Add neobird-theme OK!========='
 
 echo '添加lwz322的K3屏幕插件'
