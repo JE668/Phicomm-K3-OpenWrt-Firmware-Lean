@@ -21,6 +21,8 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/yaof2/luci-app-ikoolproxy
 
+- https://github.com/vernesong/OpenClash
+
 - ······
 
 
@@ -61,4 +63,5 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 - [P3TERX](https://github.com/P3TERX)
 - [yangxu52](https://github.com/yangxu52)
 - [yaof2](https://github.com/yaof2)
+- [vernesong](https://github.com/vernesong)
 - And Every Source Contributor!
