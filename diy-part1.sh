@@ -51,6 +51,10 @@ rm -rf package/lean/luci-theme-neobird
 git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 echo '=========Add neobird-theme OK!========='
 
+echo '设置默认主题'
+sed -i 's/luci-theme-bootstrap/luci-theme-neobird/' feeds/luci/collections/luci/Makefile
+echo '=========Set default theme OK!========='
+
 echo '添加lwz322的K3屏幕插件'
 rm -rf package/lean/luci-app-k3screenctrl
 git clone https://github.com/yangxu52/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
