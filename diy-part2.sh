@@ -36,7 +36,3 @@ sed -i "/<tr><td width=\"33%\"><%:Load Average%>/a \ \t\t<tr><td width=\"33%\"><
 cat feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm |grep Temperature
 echo "=========Add CPU Temperature in Admin Index OK========="
 
-
-echo '设置默认主题'
-sed -i 's/luci-theme-bootstrap/luci-theme-neobird/' feeds/luci/collections/luci/Makefile
-echo '=========Set default theme OK!========='
