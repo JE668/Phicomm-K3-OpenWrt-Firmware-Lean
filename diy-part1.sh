@@ -31,10 +31,10 @@ rm -rf package/lean/luci-app-dnsfilter
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
 echo '=========Add dnsfilter source OK!========='
 
-echo '添加OpenClash'
-rm -rf package/lean/luci-app-openclash
-svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
-echo '=========Add OpenClash source OK!========='
+# echo '添加OpenClash'
+# rm -rf package/lean/luci-app-openclash
+# svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
+# echo '=========Add OpenClash source OK!========='
 
 echo '添加ikoolproxy'
 rm -rf package/lean/luci-app-ikoolproxy
