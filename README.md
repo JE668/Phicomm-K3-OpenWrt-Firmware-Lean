@@ -1,3 +1,7 @@
+[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/JE668/Phicomm-K3-LEDE-Firmware-Lean/blob/master/LICENSE)
+![GitHub Stars](https://img.shields.io/github/stars/JE668/Phicomm-K3-LEDE-Firmware-Lean.svg?style=flat-square&label=Stars&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/JE668/Phicomm-K3-LEDE-Firmware-Lean.svg?style=flat-square&label=Forks&logo=github)
+
 # K3-OpenWrt-Firmware-Action 【⚝ Star Please ↗】
 Phicomm K3 OpenWrt firmware Compile by Github Actions
 
