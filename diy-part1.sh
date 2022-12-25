@@ -17,9 +17,14 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-echo '添加pass dependencies'
+echo '添加Passwall dependencies'
 sed -i '$a src-git passpack https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 echo '=========Add feed source OK!========='
+
+echo '添加Passwall软件源'
+rm -rf package/lean/luci-app-passwall 
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
+echo '=========Add passwall source OK!========='
 
 echo '添加bypass软件源'
 sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
@@ -70,6 +75,6 @@ echo '=========Remove other devices of bcm53xx OK!========='
 
 #1.'asus_dhd24' 2.'ac88u_20' 3.'69027'
 firmware='ac88u_20'
-echo '替换K3的无线驱动为asus-dhd24'
+echo '替换无线驱动'
 wget -nv https://github.com/yangxu52/Phicomm-k3-Wireless-Firmware/raw/master/brcmfmac4366c-pcie.bin.${firmware} -O package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
 echo '=========Replace k3 wireless firmware OK!========='
