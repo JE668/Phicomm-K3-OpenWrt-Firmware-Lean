@@ -26,15 +26,15 @@ rm -rf package/lean/luci-app-passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
 echo '=========Add passwall source OK!========='
 
-echo '添加bypass软件源'
-sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
-cat feeds.conf.default |grep bypass
-echo '=========Add bypass source OK!========='
+#echo '添加bypass软件源'
+#sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
+#cat feeds.conf.default |grep bypass
+#echo '=========Add bypass source OK!========='
 
-echo '添加dnsfilter'
-rm -rf package/lean/luci-app-dnsfilter 
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
-echo '=========Add dnsfilter source OK!========='
+#echo '添加dnsfilter'
+#rm -rf package/lean/luci-app-dnsfilter 
+#git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
+#echo '=========Add dnsfilter source OK!========='
 
 # echo '添加OpenClash'
 # rm -rf package/lean/luci-app-openclash
