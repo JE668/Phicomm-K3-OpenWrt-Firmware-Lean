@@ -37,7 +37,9 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo '=========Add HelloWorld source OK!========='
 
 echo '添加HelloWorld及依赖'
+rm -rf package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+rm -rf package/lean/luci-app-vssr
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 echo '=========Add HelloWorld & dependencies OK!========='
 
