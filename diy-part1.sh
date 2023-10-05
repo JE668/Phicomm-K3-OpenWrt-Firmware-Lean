@@ -54,12 +54,12 @@ git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-ap
 echo '=========Add AdguardHome OK!========='
 
 echo '添加my-dnshelper'
-rm -rf package/lean/luci-app-adguardhome 
+rm -rf package/lean/luci-app-my-dnshelper
 git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
 echo '=========Add my-dnshelper OK!========='
 
 echo '添加adbyby-plus-lite'
-rm -rf package/lean/luci-app-adguardhome 
+rm -rf package/lean/luci-app-adbyby-plus-lite
 git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus-lite
 echo '=========Add adbyby-plus-lite OK!========='
 
