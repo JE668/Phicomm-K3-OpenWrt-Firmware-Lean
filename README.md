@@ -22,10 +22,6 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
 
-- https://github.com/yaof2/luci-app-ikoolproxy
-
-- https://github.com/kiddin9/openwrt-bypass
-
 - https://github.com/kiddin9/luci-app-dnsfilter
 
 - ······
@@ -88,6 +84,5 @@ Recommend: Between `23` and `27`.Power is proportional to signal and inversely p
 - [kiddin9](https://github.com/kiddin9)
 - [P3TERX](https://github.com/P3TERX)
 - [yangxu52](https://github.com/yangxu52)
-- [yaof2](https://github.com/yaof2)
 - [vernesong](https://github.com/vernesong)
 - And Every Source Contributor!
