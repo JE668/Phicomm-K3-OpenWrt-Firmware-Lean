@@ -14,13 +14,10 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/coolsnowwolf/lede
 
-- https://github.com/jerrykuku/luci-theme-argon
-
 - https://github.com/lwz322/k3screenctrl_build
 
 - https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
 
-- https://github.com/kiddin9/luci-app-dnsfilter
 
 - ······
 
@@ -37,7 +34,7 @@ Base on Qualcomm Short-FE, significantly improve forwarding ability.
 
 - **Add Phicomm K3's LCD screen full support**  
 
-- **Add DNSfilter**  
+- **Add AdguardHome**  
 Remove ads base on DNS.  
 
 - **Others**
