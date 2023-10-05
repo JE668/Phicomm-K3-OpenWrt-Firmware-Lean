@@ -32,8 +32,8 @@
 #echo '=========Add bypass source OK!========='
 
 echo '添加HelloWorld软件源'
-src-git helloworld https://github.com/fw876/helloworld
-src-git passwall https://github.com/xiaorouji/openwrt-passwall
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo '=========Add HelloWorld source OK!========='
 
 echo '添加HelloWorld及依赖'
