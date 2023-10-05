@@ -31,22 +31,22 @@
 #cat feeds.conf.default |grep bypass
 #echo '=========Add bypass source OK!========='
 
-echo '添加HelloWorld软件源'
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo '=========Add HelloWorld source OK!========='
+#echo '添加HelloWorld软件源'
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#echo '=========Add HelloWorld source OK!========='
 
-echo '添加HelloWorld及依赖'
-rm -rf package/lean/lua-maxminddb
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-rm -rf package/lean/luci-app-vssr
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
-echo '=========Add HelloWorld & dependencies OK!========='
+#echo '添加HelloWorld及依赖'
+#rm -rf package/lean/lua-maxminddb
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+#rm -rf package/lean/luci-app-vssr
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#echo '=========Add HelloWorld & dependencies OK!========='
 
-echo '添加dnsfilter'
-rm -rf package/lean/luci-app-dnsfilter 
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
-echo '=========Add dnsfilter source OK!========='
+#echo '添加dnsfilter'
+#rm -rf package/lean/luci-app-dnsfilter 
+#git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
+#echo '=========Add dnsfilter source OK!========='
 
 echo '添加AdguardHome'
 rm -rf package/lean/luci-app-adguardhome 
@@ -73,15 +73,15 @@ echo '=========Add adbyby-plus-lite OK!========='
 # git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
 # echo '=========Add ikoolproxy source OK!========='
 
-echo '添加jerrykuku的argon-mod主题'
-rm -rf package/lean/luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
-echo '=========Add argon-mod OK!========='
+#echo '添加jerrykuku的argon-mod主题'
+#rm -rf package/lean/luci-theme-argon  
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+#echo '=========Add argon-mod OK!========='
 
-echo '添加tinktip的neobird主题'
-rm -rf package/lean/luci-theme-neobird
-git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
-echo '=========Add neobird-theme OK!========='
+#echo '添加tinktip的neobird主题'
+#rm -rf package/lean/luci-theme-neobird
+#git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
+#echo '=========Add neobird-theme OK!========='
 
 echo '添加lwz322的K3屏幕插件'
 rm -rf package/lean/luci-app-k3screenctrl
