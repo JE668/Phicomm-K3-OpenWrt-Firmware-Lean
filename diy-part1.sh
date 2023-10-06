@@ -84,7 +84,7 @@
 #echo '=========Add neobird-theme OK!========='
 
 echo '添加kiddin9软件源'
-sed -i '$a src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 echo '=========Add kiddin9 source OK!========='
 
 echo '添加lwz322的K3屏幕插件'
