@@ -31,10 +31,10 @@
 #cat feeds.conf.default |grep bypass
 #echo '=========Add bypass source OK!========='
 
-#echo '添加HelloWorld软件源'
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo '=========Add HelloWorld source OK!========='
+echo '添加HelloWorld软件源'
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo '=========Add HelloWorld source OK!========='
 
 #echo '添加HelloWorld及依赖'
 #rm -rf package/lean/lua-maxminddb
@@ -58,10 +58,10 @@ echo '=========Add AdguardHome OK!========='
 #git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
 #echo '=========Add my-dnshelper OK!========='
 
-echo '添加adbyby-plus-lite'
-rm -rf package/lean/luci-app-adbyby-plus-lite
-git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus
-echo '=========Add adbyby-plus-lite OK!========='
+#echo '添加adbyby-plus-lite'
+#rm -rf package/lean/luci-app-adbyby-plus-lite
+#git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus
+#echo '=========Add adbyby-plus-lite OK!========='
 
 # echo '添加OpenClash'
 # rm -rf package/lean/luci-app-openclash
