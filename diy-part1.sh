@@ -17,14 +17,14 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-echo '添加Passwall dependencies'
-sed -i '$a src-git passpack https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-echo '=========Add feed source OK!========='
+#echo '添加Passwall dependencies'
+#sed -i '$a src-git passpack https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#echo '=========Add feed source OK!========='
 
-echo '添加Passwall软件源'
-rm -rf package/lean/luci-app-passwall 
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
-echo '=========Add passwall source OK!========='
+#echo '添加Passwall软件源'
+#rm -rf package/lean/luci-app-passwall 
+#git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
+#echo '=========Add passwall source OK!========='
 
 #echo '添加bypass软件源'
 #sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
@@ -33,7 +33,7 @@ echo '=========Add passwall source OK!========='
 
 echo '添加HelloWorld软件源'
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo '=========Add HelloWorld source OK!========='
 
 #echo '添加HelloWorld及依赖'
@@ -84,7 +84,7 @@ echo '=========Add HelloWorld source OK!========='
 #echo '=========Add neobird-theme OK!========='
 
 echo '添加kiddin9软件源'
-echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 echo '=========Add kiddin9 source OK!========='
 
 echo '添加lwz322的K3屏幕插件'
