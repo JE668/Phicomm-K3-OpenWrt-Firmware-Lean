@@ -60,7 +60,7 @@ echo '=========Add AdguardHome OK!========='
 
 echo '添加adbyby-plus-lite'
 rm -rf package/lean/luci-app-adbyby-plus-lite
-git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus-lite
+git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus
 echo '=========Add adbyby-plus-lite OK!========='
 
 # echo '添加OpenClash'
