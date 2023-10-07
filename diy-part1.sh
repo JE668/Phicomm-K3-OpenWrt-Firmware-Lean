@@ -48,10 +48,10 @@ echo '=========Add HelloWorld source OK!========='
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
 #echo '=========Add dnsfilter source OK!========='
 
-#echo '添加AdguardHome'
-#rm -rf package/lean/luci-app-adguardhome 
-#git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
-#echo '=========Add AdguardHome OK!========='
+echo '添加AdguardHome'
+rm -rf package/lean/luci-app-adguardhome 
+git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
+echo '=========Add AdguardHome OK!========='
 
 #echo '添加my-dnshelper'
 #rm -rf package/lean/luci-app-my-dnshelper
@@ -83,9 +83,9 @@ echo '=========Add HelloWorld source OK!========='
 #git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 #echo '=========Add neobird-theme OK!========='
 
-echo '添加kiddin9软件源'
-echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
-echo '=========Add kiddin9 source OK!========='
+#echo '添加kiddin9软件源'
+#echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+#echo '=========Add kiddin9 source OK!========='
 
 echo '添加lwz322的K3屏幕插件'
 rm -rf package/lean/luci-app-k3screenctrl
