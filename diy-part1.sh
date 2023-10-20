@@ -53,15 +53,15 @@ rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
 echo '=========Add AdguardHome OK!========='
 
-echo '添加my-dnshelper'
-rm -rf package/lean/luci-app-my-dnshelper
-git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
-echo '=========Add my-dnshelper OK!========='
+#echo '添加my-dnshelper'
+#rm -rf package/lean/luci-app-my-dnshelper
+#git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
+#echo '=========Add my-dnshelper OK!========='
 
-echo '添加adbyby-plus-lite'
-rm -rf package/lean/luci-app-adbyby-plus
-git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby
-echo '=========Add adbyby-plus-lite OK!========='
+#echo '添加adbyby-plus-lite'
+#rm -rf package/lean/luci-app-adbyby-plus
+#git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby
+#echo '=========Add adbyby-plus-lite OK!========='
 
 # echo '添加OpenClash'
 # rm -rf package/lean/luci-app-openclash
