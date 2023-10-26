@@ -68,10 +68,10 @@ echo '=========Add AdguardHome OK!========='
 # svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
 # echo '=========Add OpenClash source OK!========='
 
-# echo '添加ikoolproxy'
-# rm -rf package/lean/luci-app-ikoolproxy
-# git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
-# echo '=========Add ikoolproxy source OK!========='
+echo '添加ikoolproxy'
+rm -rf package/lean/luci-app-ikoolproxy
+git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
+echo '=========Add ikoolproxy source OK!========='
 
 #echo '添加jerrykuku的argon-mod主题'
 #rm -rf package/lean/luci-theme-argon  
