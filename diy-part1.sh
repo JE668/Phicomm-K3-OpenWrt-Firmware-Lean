@@ -17,71 +17,71 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-#echo '添加Passwall dependencies'
-#sed -i '$a src-git passpack https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-#echo '=========Add feed source OK!========='
+# echo '添加Passwall dependencies'
+# sed -i '$a src-git passpack https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+# echo '=========Add feed source OK!========='
 
-#echo '添加Passwall软件源'
-#rm -rf package/lean/luci-app-passwall 
-#git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
-#echo '=========Add passwall source OK!========='
+# echo '添加Passwall软件源'
+# rm -rf package/lean/luci-app-passwall 
+# git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/luci-app-passwall 
+# echo '=========Add passwall source OK!========='
 
-#echo '添加bypass软件源'
-#sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
-#cat feeds.conf.default |grep bypass
-#echo '=========Add bypass source OK!========='
+# echo '添加bypass软件源'
+# sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
+# cat feeds.conf.default |grep bypass
+# echo '=========Add bypass source OK!========='
 
 echo '添加HelloWorld软件源'
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo '=========Add HelloWorld source OK!========='
 
-#echo '添加HelloWorld及依赖'
-#rm -rf package/lean/lua-maxminddb
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-#rm -rf package/lean/luci-app-vssr
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
-#echo '=========Add HelloWorld & dependencies OK!========='
+# echo '添加HelloWorld及依赖'
+# rm -rf package/lean/lua-maxminddb
+# git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+# rm -rf package/lean/luci-app-vssr
+# git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+# echo '=========Add HelloWorld & dependencies OK!========='
 
-echo '添加dnsfilter'
-rm -rf package/lean/luci-app-dnsfilter 
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
-echo '=========Add dnsfilter source OK!========='
+# echo '添加dnsfilter'
+# rm -rf package/lean/luci-app-dnsfilter 
+# git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
+# echo '=========Add dnsfilter source OK!========='
 
 echo '添加AdguardHome'
 rm -rf package/lean/luci-app-adguardhome 
 git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
 echo '=========Add AdguardHome OK!========='
 
-#echo '添加my-dnshelper'
-#rm -rf package/lean/luci-app-my-dnshelper
-#git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
-#echo '=========Add my-dnshelper OK!========='
+# echo '添加my-dnshelper'
+# rm -rf package/lean/luci-app-my-dnshelper
+# git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
+# echo '=========Add my-dnshelper OK!========='
 
-echo '添加adbyby-plus-lite'
-rm -rf package/lean/luci-app-adbyby-plus
-git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby
-echo '=========Add adbyby-plus-lite OK!========='
+# echo '添加adbyby-plus-lite'
+# rm -rf package/lean/luci-app-adbyby-plus
+# git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite package/lean/luci-app-adbyby-plus
+# echo '=========Add adbyby-plus-lite OK!========='
 
 # echo '添加OpenClash'
 # rm -rf package/lean/luci-app-openclash
 # svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
 # echo '=========Add OpenClash source OK!========='
 
-#echo '添加ikoolproxy'
-#rm -rf package/lean/luci-app-ikoolproxy
-#git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
-#echo '=========Add ikoolproxy source OK!========='
+# echo '添加ikoolproxy'
+# rm -rf package/lean/luci-app-ikoolproxy
+# git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
+# echo '=========Add ikoolproxy source OK!========='
 
-#echo '添加jerrykuku的argon-mod主题'
-#rm -rf package/lean/luci-theme-argon  
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
-#echo '=========Add argon-mod OK!========='
+# echo '添加jerrykuku的argon-mod主题'
+# rm -rf package/lean/luci-theme-argon  
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+# echo '=========Add argon-mod OK!========='
 
-#echo '添加tinktip的neobird主题'
-#rm -rf package/lean/luci-theme-neobird
-#git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
-#echo '=========Add neobird-theme OK!========='
+# echo '添加tinktip的neobird主题'
+# rm -rf package/lean/luci-theme-neobird
+# git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
+# echo '=========Add neobird-theme OK!========='
 
 #echo '添加kiddin9软件源'
 #echo 'src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
