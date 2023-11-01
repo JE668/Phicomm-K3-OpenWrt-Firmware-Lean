@@ -53,10 +53,10 @@ rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
 echo '=========Add AdguardHome OK!========='
 
-echo '添加my-dnshelper'
-rm -rf package/lean/luci-app-my-dnshelper
-git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
-echo '=========Add my-dnshelper OK!========='
+#echo '添加my-dnshelper'
+#rm -rf package/lean/luci-app-my-dnshelper
+#git clone https://github.com/kongfl888/openwrt-my-dnshelper/ package/lean/luci-app-my-dnshelper
+#echo '=========Add my-dnshelper OK!========='
 
 echo '添加adbyby-plus-lite'
 rm -rf package/lean/luci-app-adbyby-plus
@@ -68,10 +68,10 @@ echo '=========Add adbyby-plus-lite OK!========='
 # svn checkout https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash
 # echo '=========Add OpenClash source OK!========='
 
-echo '添加ikoolproxy'
-rm -rf package/lean/luci-app-ikoolproxy
-git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
-echo '=========Add ikoolproxy source OK!========='
+#echo '添加ikoolproxy'
+#rm -rf package/lean/luci-app-ikoolproxy
+#git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/lean/luci-app-ikoolproxy
+#echo '=========Add ikoolproxy source OK!========='
 
 #echo '添加jerrykuku的argon-mod主题'
 #rm -rf package/lean/luci-theme-argon  
