@@ -43,10 +43,10 @@ echo '=========Add HelloWorld source OK!========='
 # git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 # echo '=========Add HelloWorld & dependencies OK!========='
 
-# echo '添加dnsfilter'
-# rm -rf package/lean/luci-app-dnsfilter 
-# git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
-# echo '=========Add dnsfilter source OK!========='
+echo '添加dnsfilter'
+rm -rf package/lean/luci-app-dnsfilter 
+git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
+echo '=========Add dnsfilter source OK!========='
 
 # echo '添加AdguardHome'
 # rm -rf package/lean/luci-app-adguardhome 
