@@ -31,10 +31,15 @@
 # cat feeds.conf.default |grep bypass
 # echo '=========Add bypass source OK!========='
 
-echo '添加HelloWorld软件源'
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo '=========Add HelloWorld source OK!========='
+echo '添加kenzok8软件源'
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+echo '=========Add bypass source OK!========='
+
+# echo '添加HelloWorld软件源'
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# echo '=========Add HelloWorld source OK!========='
 
 # echo '添加HelloWorld及依赖'
 # rm -rf package/lean/lua-maxminddb
