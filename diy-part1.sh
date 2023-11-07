@@ -54,7 +54,10 @@ echo '=========Add bypass source OK!========='
 # echo '=========Add dnsfilter source OK!========='
 
 echo '添加AdguardHome'
-rm -rf package/lean/luci-app-adguardhome 
+rm -rf feeds/kenzo/adguardhome
+rm -rf feeds/kenzo/luci-app-adguardhome
+rm -rf package/feeds/kenzo/luci-app-adguardhome
+rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
 echo '=========Add AdguardHome OK!========='
 
