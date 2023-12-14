@@ -38,8 +38,8 @@ Base on Qualcomm Short-FE, significantly improve forwarding ability.
 - **Add AdguardHome**  
 Remove ads base on DNS.
 
--- **Add SSR-plus**  
-“师夷长技以制夷”
+- **Add SSR-plus**  
+Hello World! (Incloud MosDNS)
 
 - **Others**
 
