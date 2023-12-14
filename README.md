@@ -18,6 +18,7 @@ Phicomm K3 OpenWrt firmware Compile by Github Actions
 
 - https://github.com/yangxu52/Phicomm-K2P-K3-OpenWrt-Firmware
 
+- https://github.com/kenzok8
 
 - ······
 
@@ -53,11 +54,11 @@ Remove ads base on DNS.
 2.Open Menu `(系统|System)` -> `(启动项|Startup)`, slide to the bottom.  
 3.Add some shell command in `(本地启动脚本|Local Startup Script)`, before `exit 0`  
 ```shell
-iwconfig wlan0 txpower 23
-iwconfig wlan1 txpower 23
+iwconfig wlan0 txpower 20
+iwconfig wlan1 txpower 20
 ```  
-The `wlan0` represent 2.4G,`wlan1` represent 5G. `23` reresent submit power (max:`31`).  
-Recommend: Between `23` and `27`.Power is proportional to signal and inversely proportional to wireless throughput.  
+The `wlan0` represent 2.4G,`wlan1` represent 5G. `20` reresent submit power (max:`31`).  
+Recommend: Between `20` and `27`.Power is proportional to signal and inversely proportional to wireless throughput.  
 4.Click the `(保存&应用|SAVE&APPLY)` button to save. Finally,refresh browser.  
 &emsp;
 
@@ -75,7 +76,7 @@ Recommend: Between `23` and `27`.Power is proportional to signal and inversely p
 - [Lienol](https://github.com/Lienol)
 - [jerrykuku](https://github.com/jerrykuku)
 - [lwz322](https://github.com/lwz322)
-- [kiddin9](https://github.com/kiddin9)
+- [kenzok8](https://github.com/kenzok8)
 - [P3TERX](https://github.com/P3TERX)
 - [yangxu52](https://github.com/yangxu52)
 - [vernesong](https://github.com/vernesong)
