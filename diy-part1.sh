@@ -34,7 +34,7 @@
 echo '添加kenzok8软件源'
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-echo '=========Add bypass source OK!========='
+echo '=========Add kenzok8 source OK!========='
 
 # echo '添加HelloWorld软件源'
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
