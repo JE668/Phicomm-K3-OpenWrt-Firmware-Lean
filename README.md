@@ -25,8 +25,8 @@
 1. 进入系统-启动项-本地启动脚本
 2. 复制以下代码至 "exit 0" 之前:
 ```shell
-   iwconfig wlan0 txpower 20
-   iwconfig wlan1 txpower 20
+iwconfig wlan0 txpower 20
+iwconfig wlan1 txpower 20
 ```
 3. 保存应用
 4. 重启路由器
