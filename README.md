@@ -11,14 +11,8 @@
 
 该固件基于 [Lean 的 OpenWrt 源码](https://github.com/coolsnowwolf/lede)，并整合了以下主要插件及功能。
 
-### 一、主要插件
 
-- [Adguardhome](https://github.com/kongfl888/luci-app-adguardhome) 🛡️
-- [SSR-plus](https://github.com/kenzok8/openwrt-packages) 🌐
-- [K3 Screen](https://github.com/yangxu52/luci-app-k3screenctrl) 🖥️
-
-
-### 二、无线功率调整
+### 一、无线功率调整
 
 如果需要调整无线功率，可以按照以下步骤进行操作：
 
@@ -32,12 +26,12 @@ iwconfig wlan1 txpower 20
 4. 重启路由器
 
 
-### 三、感谢 🙏
+### 二、感谢 🙏
 
 - [Lean](https://github.com/coolsnowwolf)  [Lienol](https://github.com/Lienol)  [lwz322](https://github.com/lwz322)  [Hill-98](https://github.com/Hill-98)  [kongfl888](https://github.com/kongfl888)  [kenzok8](https://github.com/kenzok8)  [P3TERX](https://github.com/P3TERX)  [yangxu52](https://github.com/yangxu52)
 
 
-### 四、其他
+### 三、其他
 
 如果您对该固件有任何疑问或建议，请随时提出 issue 或联系上述贡献者。
 
