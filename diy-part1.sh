@@ -112,7 +112,7 @@ echo '=========Replace k3screen drive plug OK!========='
 # echo '=========Remove other devices of bcm53xx OK!========='
 
 # 1.'asus_dhd24' 2.'ac88u_20' 3.'69027'
-firmware='69027'
-echo '替换无线驱动'
-wget -nv https://github.com/je668/Phicomm-k3-Wireless-Firmware/raw/master/brcmfmac4366c-pcie.bin.${firmware} -O /package/lean/k3-firmware/files/brcmfmac4366c-pcie.bin
-echo '=========Replace k3 wireless firmware OK!========='
+# firmware='69027'
+# echo '替换无线驱动'
+# wget -nv https://github.com/je668/Phicomm-k3-Wireless-Firmware/raw/master/brcmfmac4366c-pcie.bin.${firmware} -O /package/lean/k3-firmware/files/brcmfmac4366c-pcie.bin
+# echo '=========Replace k3 wireless firmware OK!========='
