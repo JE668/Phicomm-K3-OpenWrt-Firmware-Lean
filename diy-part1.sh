@@ -96,5 +96,5 @@ echo '=========Remove other devices of bcm53xx OK!========='
 echo '替换无线驱动'
 # wget -nv https://github.com/JE668/Phicomm-k3-Wireless-Firmware/raw/master/brcmfmac4366c-pcie.bin.${firmware} -O package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
 rm -rf ./package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
-cp -af https://github.com/JE668/Phicomm-K3-OpenWrt-Firmware-Lean/blob/main/brcmfmac4366c-pcie.bin ./package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
+cp -af https://github.com/JE668/Phicomm-K3-OpenWrt-Firmware-Lean/raw/refs/heads/main/brcmfmac4366c-pcie.bin ./package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
 echo '=========Replace k3 wireless firmware OK!========='
