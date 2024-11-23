@@ -23,10 +23,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 echo '=========Add passwall source OK!========='
 
-echo '添加xiangfeidexiaohuo大佬的软件源'
-echo -e "\nsrc-git extraipk https://github.com/xiangfeidexiaohuo/extra-ipk" >> feeds.conf.default
-echo '=========Add xiangfeidexiaohuo source OK!========='
-
 # echo '添加AdguardHome'
 # rm -rf feeds/kenzo/adguardhome
 # rm -rf feeds/kenzo/luci-app-adguardhome
@@ -84,12 +80,12 @@ echo '=========Add OpenClash source OK!========='
 # git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # echo '=========Add MosDNS OK!========='
 
-echo '移除bcm53xx中的其他机型'
-sed -i '421,453d' target/linux/bcm53xx/image/Makefile
-sed -i '140,412d' target/linux/bcm53xx/image/Makefile
-sed -i 's/$(USB3_PACKAGES) k3screenctrl/luci-app-k3screenctrl/g' target/linux/bcm53xx/image/Makefile
+# echo '移除bcm53xx中的其他机型'
+# sed -i '421,453d' target/linux/bcm53xx/image/Makefile
+# sed -i '140,412d' target/linux/bcm53xx/image/Makefile
+# sed -i 's/$(USB3_PACKAGES) k3screenctrl/luci-app-k3screenctrl/g' target/linux/bcm53xx/image/Makefile
 # sed -n '140,146p' target/linux/bcm53xx/image/Makefile
-echo '=========Remove other devices of bcm53xx OK!========='
+# echo '=========Remove other devices of bcm53xx OK!========='
 
 # 1.'asus_dhd24' 2.'ac88u_20' 3.'69027'
 # firmware='69027'
