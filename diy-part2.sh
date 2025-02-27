@@ -9,13 +9,13 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-echo 'Modify default IP'
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+# echo 'Modify default IP'
+# sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
-echo '修改主机名'
-sed -i "s/hostname='OpenWrt'/hostname='Phicomm-K3'/g" package/base-files/files/bin/config_generate
-cat package/base-files/files/bin/config_generate |grep hostname=
-echo '=========Alert hostname OK!========='
+# echo '修改主机名'
+# sed -i "s/hostname='OpenWrt'/hostname='Phicomm-K3'/g" package/base-files/files/bin/config_generate
+# cat package/base-files/files/bin/config_generate |grep hostname=
+# echo '=========Alert hostname OK!========='
 
 echo '移除主页跑分信息显示'
 sed -i 's/ <%=luci.sys.exec("cat \/etc\/bench.log") or ""%>//g' package/lean/autocore/files/arm/index.htm
