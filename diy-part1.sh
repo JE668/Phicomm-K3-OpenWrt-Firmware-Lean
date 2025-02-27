@@ -32,15 +32,15 @@
 # git clone https://github.com/kongfl888/luci-app-adguardhome package/lean/luci-app-adguardhome 
 # echo '=========Add AdguardHome OK!========='
 
-# echo '添加lwz322的K3屏幕插件'
-# rm -rf package/lean/luci-app-k3screenctrl
-# git clone https://github.com/JE668/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
-# echo '=========Add k3screen plug OK!========='
+echo '添加lwz322的K3屏幕插件'
+rm -rf package/lean/luci-app-k3screenctrl
+git clone https://github.com/JE668/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
+echo '=========Add k3screen plug OK!========='
 
-# echo '替换lwz322的K3屏幕驱动插件'
-# rm -rf package/lean/k3screenctrl
-# git clone https://github.com/JE668/k3screenctrl_build.git package/lean/k3screenctrl/
-# echo '=========Replace k3screen drive plug OK!========='
+echo '替换lwz322的K3屏幕驱动插件'
+rm -rf package/lean/k3screenctrl
+git clone https://github.com/JE668/k3screenctrl_build.git package/lean/k3screenctrl/
+echo '=========Replace k3screen drive plug OK!========='
 
 # echo '添加OpenClash'
 # rm -rf package/lean/luci-app-openclash
