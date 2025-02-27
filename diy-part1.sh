@@ -13,15 +13,15 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-echo '添加SSR-Plus软件源'
-sed -i "/helloworld/d" "feeds.conf.default"
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
-echo '=========Add SSR-Plus source OK!========='
+# echo '添加SSR-Plus软件源'
+# sed -i "/helloworld/d" "feeds.conf.default"
+# echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+# echo '=========Add SSR-Plus source OK!========='
 
-echo '添加passwall软件源'
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
-echo '=========Add passwall source OK!========='
+# echo '添加passwall软件源'
+# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
+# echo '=========Add passwall source OK!========='
 
 # echo '添加AdguardHome'
 # rm -rf feeds/kenzo/adguardhome
